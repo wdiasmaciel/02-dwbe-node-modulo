@@ -208,3 +208,27 @@ Remova a extensão `.js` do final da linha de importação no arquivo `index.js`
 O Node.js disparará um erro de módulo não encontrado. 
 
 Ao contrário do desenvolvimento front-end com empacotadores (como Vite), o Node.js rodando puro no back-end exige explicitamente a extensão do arquivo para localização exata no disco.
+
+---
+
+# Exercícios de Fixação
+
+## 1) Identificação de exportação
+Crie um arquivo chamado `matematica.js` e exporte três constantes nomeadas: `pi`, `raio` e `areaCirculo`. Em seguida, importe essas constantes em um arquivo `app.js` e exiba a área de um círculo com raio 5. Para calcular a área de um círculo, utilize a fórmula A = π · r², onde A é a área, π (pi) vale aproximadamente 3,14 e r é o raio.
+
+## 2) Diferença entre export default e named export
+Crie dois arquivos: `pessoa.js` e `index.js`. Em `pessoa.js`, exporte uma classe chamada `Pessoa` como padrão e uma constante chamada `profissao` como exportação nomeada. No arquivo principal, importe ambos e mostre no console o nome da pessoa e sua profissão.
+
+## 3) Arrays e objetos em módulos
+Crie um módulo `dados.js` contendo um vetor com 5 nomes de alunos e um objeto com dados pessoais de um aluno. Exporte ambos com `export`. Depois importe no arquivo principal e imprima no console: o primeiro nome do vetor e os dados do objeto em formato legível.
+
+## 4) Função e arrow function no mesmo módulo
+Crie um módulo `operacoes.js` com uma função tradicional `multiplicar(a, b)` e uma arrow function `dividir(a, b)`. Exporte os dois elementos. No arquivo principal, importe ambos e teste os resultados com valores diferentes, exibindo o retorno em console.
+
+## 5) Diagnóstico de erro de módulo
+Crie dois arquivos, `config.js` e `main.js`, e configure o projeto com `"type": "module"`. Em seguida, tente importar `./config` sem a extensão `.js` e observe o erro gerado pelo Node.js. Descreva em uma frase o motivo do erro e a correção necessária.
+
+---
+
+## Desafio Final
+Pesquise e explique, em 3 linhas, a diferença entre `export default` e `export const` em Node.js com ESModules. Em seguida, monte um mini projeto com 3 arquivos (`dados.js`, `funcoes.js` e `index.js`) e teste a importação e a execução em terminal.
