@@ -134,6 +134,11 @@ Abrir o arquivo `package.json` gerado e habilitar o suporte a módulos, adiciona
 "type": "module",
 ```
 
+**OBS**: caso o arquivo `package.json` tenha a linha abaixo, retire-a:
+```javascript
+  "type": "commonjs",
+```
+
 ## Passo 3: 
 
 Criar o arquivo chamado `ferramentas.js` e digitar todo o código contendo as variáveis, constante, funções, vetor, objeto e a classe Aluno conforme apresentado acima.
@@ -158,6 +163,7 @@ Incluir na chave `script` do arquivo `package.json` o comando abaixo:
 "start": "node index.js"
 ```
 
+Versão final do arquivo `package.json`:
 ```javascript
 {
   "name": "02-dwbe-node-modulo",
@@ -176,7 +182,6 @@ Incluir na chave `script` do arquivo `package.json` o comando abaixo:
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/wdiasmaciel/02-dwbe-node-modulo/issues"
   },
