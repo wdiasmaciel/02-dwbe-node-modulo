@@ -140,7 +140,7 @@ Criar o arquivo chamado `ferramentas.js` e digitar todo o código contendo as va
 
 ## Passo 4: 
 
-Criar o arquivo chamado `index.js` e realizar as importações combinadas (Named e Default), seguidas pelos comandos de console.log para exibir os resultados.
+Criar o arquivo chamado `index.js` e realizar as importações combinadas (Named e Default), seguidas pelos comandos de console.log para exibir os resultados, como apresentado acima.
 
 ## Passo 5: 
 
