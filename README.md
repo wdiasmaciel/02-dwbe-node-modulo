@@ -198,7 +198,7 @@ npm run start
 Executar o comando abaixo:
 
 ```bash
-npm run
+npm start
 ```
 
 ## Passo 7 (Provocação Didática): 
