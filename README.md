@@ -89,7 +89,7 @@ export default class Aluno {
 
 ```javascript
 // Importando os elementos nomeados (dentro de chaves) e o elemento padrão (fora das chaves)
-// Atenção: no Node.js com ESModules, a extensão do arquivo (0.js) é obrigatória na importação local!
+// Atenção: no Node.js com ESModules, a extensão do arquivo (.js) é obrigatória na importação local!
 import Aluno, { num1, num2, titulo, vet, obj, soma, subtrair } from './ferramentas.js';
 
 console.log("--- Executando testes de importação ---");
