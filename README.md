@@ -44,9 +44,9 @@ Vamos estruturar um projeto em dois arquivos distintos dentro da mesma pasta.
 
 ## `Arquivo 1` (`ferramentas.js`):
 
-O arquivo que exporta os elementos. 
+1. O arquivo que exporta os elementos. 
 
-Nesse arquivo, vamos declarar e exportar as variáveis, constantes, vetores, objetos, funções, arrow functions e classes.
+2. Nesse arquivo, vamos declarar e exportar as variáveis, constantes, vetores, objetos, funções, arrow functions e classes.
 
 ```javascript
 // Exemplo A: variáveis simples (Exportação Nomeada): 
@@ -81,11 +81,11 @@ export default class Aluno {
 
 ## Arquivo 2 (index.js):
 
-O arquivo principal que importa e executa.
+1. O arquivo principal que importa e executa.
 
-Neste arquivo, consumimos tudo o que foi criado no arquivo anterior. 
+2. Neste arquivo, consumimos tudo o que foi criado no arquivo anterior. 
 
-Observe a diferença: os itens nomeados ficam dentro de chaves, enquanto a classe (export default) fica fora das chaves e sem extensão especial.
+3. Observe a diferença: os itens nomeados ficam dentro de chaves, enquanto a classe (export default) fica fora das chaves e sem extensão especial.
 
 ```javascript
 // Importando os elementos nomeados (dentro de chaves) e o elemento padrão (fora das chaves)
