@@ -94,11 +94,11 @@ import Aluno, { num1, num2, titulo, vet, obj, soma, subtrair } from './ferrament
 
 console.log("--- Executando testes de importação ---");
 
-// Testando a Constante e as Variáveis:
+// Testando a constante e as variáveis:
 console.log("Título do App: " + titulo);
 console.log("A soma de num1 e num2 é: " + (num1 + num2));
 
-// Testando a Função tradicional e a arrow function:
+// Testando a função tradicional e a arrow function:
 console.log("Resultado da função soma(10, 20): " + soma(10, 20));
 console.log("Resultado da arrow function subtrair(20, 5): " + subtrair(20, 5));
 
