@@ -119,6 +119,7 @@ novoAluno.cumprimentar();
 # Atividade
 
 `Passo 1`: 
+
 Iniciar um projeto Node.js com as configurações padrões:
 
 ```bash
@@ -126,6 +127,7 @@ npm init -y
 ```
 
 `Passo 2`: 
+
 Abrir o arquivo `package.json` gerado e habilitar o suporte a módulos, adicionando a seguinte linha logo abaixo do campo `main`:
 
 ```javascript
@@ -133,12 +135,15 @@ Abrir o arquivo `package.json` gerado e habilitar o suporte a módulos, adiciona
 ```
 
 `Passo 3`: 
+
 Criar o arquivo chamado `ferramentas.js` e digitar todo o código contendo as funções, variáveis, constantes, vetor, objeto e a classe Aluno conforme apresentado acima.
 
 `Passo 4`: 
+
 Criar o arquivo chamado `index.js` e realizar as importações combinadas (Named e Default), seguidas pelos comandos de console.log para exibir os resultados.
 
 `Passo 5`: 
+
 Executar o arquivo principal no terminal através do comando:
 
 ```bash
@@ -146,6 +151,7 @@ node index.js
 ```
 
 `Passo 7` (Provocação Didática): 
+
 Remova a extensão `.js` do final da linha de importação no arquivo `index.js` (deixando apenas `'./ferramentas'`) e tente rodar novamente. 
 
 O Node.js disparará um erro de módulo não encontrado. 
