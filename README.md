@@ -131,7 +131,7 @@ npm init -y
 Abrir o arquivo `package.json` gerado e habilitar o suporte a módulos, adicionando a seguinte linha logo abaixo do campo `main`:
 
 ```javascript
-"type": "module"
+"type": "module",
 ```
 
 ## Passo 3: 

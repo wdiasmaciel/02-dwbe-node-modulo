@@ -1,0 +1,22 @@
+{
+  "name": "02-dwbe-node-modulo",
+  "version": "1.0.0",
+  "description": "1. Quando começamos a construir sistemas back-end complexos, colocar todo o código em um único arquivo torna o projeto difícil de manter, testar e corrigir.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wdiasmaciel/02-dwbe-node-modulo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/wdiasmaciel/02-dwbe-node-modulo/issues"
+  },
+  "homepage": "https://github.com/wdiasmaciel/02-dwbe-node-modulo#readme"
+}
