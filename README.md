@@ -229,6 +229,6 @@ Crie um módulo `operacoes.js` com uma função tradicional `multiplicar(a, b)` 
 Crie dois arquivos, `config.js` e `main.js`, e configure o projeto com `"type": "module"`. Em seguida, tente importar `./config` sem a extensão `.js` e observe o erro gerado pelo Node.js. Descreva em uma frase o motivo do erro e a correção necessária.
 
 ## 6) Desafio Final
-Pesquise e explique, em 3 linhas, a diferença entre `Named Export` e `Default Export` em Node.js com ESModules. Em seguida, monte um projeto com 3 arquivos (`dados.js`, `funcoes.js` e `index.js`) e teste a importação e a execução em terminal.
+Pesquise e explique, em 3 linhas, a diferença entre `Named Export` e `Default Export` em Node.js com ESModules. Em seguida, monte um projeto com 3 arquivos (`dados.js`, `funcoes.js` e `index.js`) e teste a importação e a execução em terminal, configurando os campos `type` e `script` do arquivo `package.json`.
 
 ---
