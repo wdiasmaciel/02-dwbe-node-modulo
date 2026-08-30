@@ -32,7 +32,7 @@ Regras fundamentais da exportação padrão:
 
 1. Um arquivo só pode ter uma única exportação padrão (`export default`).
 
-2. Quem importa esse código NÃO utiliza chaves (`{ }`).
+2. Quem importa esse código **NÃO** utiliza chaves (`{ }`).
 
 3. Quem importa pode dar qualquer nome para o elemento importado, embora a boa prática recomende manter o nome original para evitar confusão.
 
