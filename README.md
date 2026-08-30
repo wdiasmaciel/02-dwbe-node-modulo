@@ -211,7 +211,7 @@ Ao contrário do desenvolvimento front-end com empacotadores (como Vite), o Node
 
 ---
 
-# Exercícios de Fixação
+# Exercícios 
 
 ## 1) Identificação de exportação
 Crie um arquivo chamado `matematica.js` e exporte três constantes nomeadas: `pi`, `raio` e `areaCirculo`. Em seguida, importe essas constantes em um arquivo `app.js` e exiba a área de um círculo com raio 5. Para calcular a área de um círculo, utilize a fórmula A = π · r², em que A é a área, π (pi) vale aproximadamente 3,14 e r é o raio.
