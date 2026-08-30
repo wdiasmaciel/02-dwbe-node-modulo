@@ -2,13 +2,13 @@
 
 # Modularização
 
-Quando começamos a construir sistemas back-end complexos, colocar todo o código em um único arquivo torna o projeto difícil de manter, testar e corrigir. 
+1. Quando começamos a construir sistemas back-end complexos, colocar todo o código em um único arquivo torna o projeto difícil de manter, testar e corrigir. 
 
-A modularização é a prática de dividir o código em arquivos menores e especializados, em que cada arquivo possui uma única responsabilidade.
+2. A modularização é a prática de dividir o código em arquivos menores e especializados, em que cada arquivo possui uma única responsabilidade.
 
-O padrão atual, adotado tanto no front-end (React, Angular) quanto no back-end (Node.js e TypeScript), são os ESModules (ECMAScript Modules), que utilizam as palavras-chave `import` e `export`.
+3. O padrão atual, adotado tanto no front-end (React, Angular) quanto no back-end (Node.js e TypeScript), são os ESModules (ECMAScript Modules), que utilizam as palavras-chave `import` e `export`.
 
-Existem duas formas principais de compartilhar códigos entre arquivos no ecossistema JavaScript: Exportações Nomeadas (Named Exports) e Exportações Padrão (Default Exports).
+4. Existem duas formas principais de compartilhar códigos entre arquivos no ecossistema JavaScript: **Exportações Nomeadas** (**Named Exports**) e **Exportações Padrão** (**Default Exports**).
 
 ---
 
