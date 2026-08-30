@@ -150,7 +150,53 @@ Executar o arquivo principal no terminal através do comando:
 node index.js
 ```
 
-## Passo 6 (Provocação Didática): 
+## Passo 6
+
+Incluir na chave `script` do arquivo `package.json` o comando abaixo:
+
+```javascript
+"start": "node index.js"
+```
+
+```javascript
+{
+  "name": "02-dwbe-node-modulo",
+  "version": "1.0.0",
+  "description": "1. Quando começamos a construir sistemas back-end complexos, colocar todo o código em um único arquivo torna o projeto difícil de manter, testar e corrigir.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wdiasmaciel/02-dwbe-node-modulo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/wdiasmaciel/02-dwbe-node-modulo/issues"
+  },
+  "homepage": "https://github.com/wdiasmaciel/02-dwbe-node-modulo#readme"
+}
+```
+
+Executar o comando abaixo:
+
+```bash
+npm run start
+```
+
+Executar o comando abaixo:
+
+```bash
+npm run
+```
+
+## Passo 7 (Provocação Didática): 
 
 Remova a extensão `.js` do final da linha de importação no arquivo `index.js` (deixando apenas `'./ferramentas'`) e tente rodar novamente. 
 
