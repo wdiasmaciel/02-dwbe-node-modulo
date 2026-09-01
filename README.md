@@ -141,7 +141,7 @@ Abrir o arquivo `package.json` gerado e habilitar o suporte a módulos, adiciona
 
 ## Passo 3: 
 
-Criar o arquivo chamado `ferramentas.js` e digitar todo o código contendo as variáveis, constante, funções, vetor, objeto e a classe Aluno conforme apresentado acima.
+Criar o arquivo chamado `ferramentas.js` com todo o código contendo as variáveis, constante, funções, vetor, objeto e a classe Aluno conforme apresentado acima.
 
 ## Passo 4: 
 
