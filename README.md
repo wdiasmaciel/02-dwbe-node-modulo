@@ -201,7 +201,7 @@ Executar o comando abaixo:
 npm start
 ```
 
-## Passo 7 (Provocação Didática): 
+## Passo 7 (Teste): 
 
 Remova a extensão `.js` do final da linha de importação no arquivo `index.js` (deixando apenas `'./ferramentas'`) e tente rodar novamente. 
 
