@@ -141,11 +141,11 @@ Abrir o arquivo `package.json` gerado e habilitar o suporte a módulos, adiciona
 
 ## Passo 3: 
 
-Criar o arquivo chamado `ferramentas.js` com todo o código contendo as variáveis, constante, funções, vetor, objeto e a classe Aluno conforme apresentado acima.
+Criar o arquivo `ferramentas.js` com todo o código contendo as variáveis, constante, funções, vetor, objeto e a classe Aluno conforme apresentado acima.
 
 ## Passo 4: 
 
-Criar o arquivo chamado `index.js` e realizar as importações combinadas (Named e Default), seguidas pelos comandos de console.log para exibir os resultados, como apresentado acima.
+Criar o arquivo `index.js` e realizar as importações combinadas (Named e Default), seguidas pelos comandos de console.log para exibir os resultados, como apresentado acima.
 
 ## Passo 5: 
 
